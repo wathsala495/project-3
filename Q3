@@ -1,0 +1,4 @@
+object Q3_19001843 extends App{
+  def cost(X:Double)=(24.95*0.6*X)+3*50+0.75*(X-50)
+  println(cost(60));
+}
